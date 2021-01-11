@@ -1,0 +1,28 @@
+.containerNav {
+
+    color: deeppink;
+    background-color: rgb(32, 32, 32);
+}
+
+.brand {
+    	
+       
+}
+
+nav {	    
+	height: auto;
+    
+    
+}
+
+.menu {
+	margin: 30px 0px 0px 0px;	
+    font-size: 16pt;
+    padding: 0px 0px 30px 0px;
+	
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0px 100px 0px 8px;
+}
