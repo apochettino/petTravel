@@ -1,0 +1,12 @@
+.homeStyle {
+
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(251,77,186);
+background: linear-gradient(169deg, rgba(251,77,186,1) 0%, rgba(255,200,70,1) 100%);
+}
+
+

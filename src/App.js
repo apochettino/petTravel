@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import {NavBar} from './components/NavBar/NavBar'
+import { NavBar } from './components/NavBar/NavBar'
+import { Home } from './components/Home/home'
+
 
 function App() {
   
@@ -8,6 +10,8 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <Home greeting={'Bienvenido a PetTravel'}/>      
+
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
