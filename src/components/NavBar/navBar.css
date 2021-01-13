@@ -2,6 +2,7 @@
 
     color: deeppink;
     background-color: rgb(32, 32, 32);
+    
 }
 
 .brand {
@@ -25,4 +26,10 @@ nav {
 .menu li {
     display: inline-block;
     margin: 0px 100px 0px 8px;
+}
+
+
+.cart {
+
+    
 }

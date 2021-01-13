@@ -1,7 +1,7 @@
 .homeStyle {
 
-    height: 1080px;    
-    
+    margin: 0px;    
+    height: 780px; 
     background: rgb(251,77,186);
     background: linear-gradient(169deg, rgba(251,77,186,1) 0%, rgba(255,200,70,1) 100%);
 }
@@ -26,4 +26,10 @@
 
 .custom-shape-divider-bottom-1610556379 .shape-fill {
     fill: #FFFFFF;
+}
+
+
+.salu {
+    padding: 50px 0px 0px 0px;    
+    font-size: 24pt;
 }
