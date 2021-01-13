@@ -5,3 +5,8 @@
     height: 50px;
     margin: -70px 300px 0px 0px;
 }
+
+.CartWid:hover {
+
+    box-shadow: #ffffff;
+}
