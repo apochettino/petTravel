@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { NavBar } from './components/NavBar/NavBar'
 import { Home } from './components/Home/home'
-import { Seccion } from './components/sec02/sec02'
+import { Seccion } from './components/sec02/sec02' 
+
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Home greeting={'Bienvenido a PetTravel'}/>    
-      <Seccion/>
+      <Seccion />
       
          
 

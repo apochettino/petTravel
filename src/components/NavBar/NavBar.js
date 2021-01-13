@@ -2,6 +2,8 @@ import React from'react'
 import './navBar.css'
 import '../../assets/img/carrito.png'
 
+
+
 export const NavBar = () => { //uso default si voy a hacer mas de una navbar
 
     return (
@@ -16,6 +18,7 @@ export const NavBar = () => { //uso default si voy a hacer mas de una navbar
                     <li>Section 01</li>
                     <li>Section 02</li>
                     <li>Section 03</li>
+                    <li></li>
                 </ul>
                 <div className='cart'>
                   <img src='../../assets/img/carrito.png' alt="cart"/> 
