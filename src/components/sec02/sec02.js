@@ -8,7 +8,7 @@ export const Seccion = () => {
     return (
 
         <div className="segundaSecc">           
-               <h1>Segunda sección</h1> 
+               <h1 className="sec">Segunda sección</h1> 
                 
         </div>
         
