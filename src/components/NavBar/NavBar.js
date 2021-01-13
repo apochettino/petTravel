@@ -1,6 +1,6 @@
 import React from'react'
 import './navBar.css'
-import Icono from '../../assets/img/carrito.png'
+
 
 
 
@@ -22,7 +22,7 @@ export const NavBar = () => { //uso default si voy a hacer mas de una navbar
                     
                 </ul>                                
             </nav>
-            <div className="cart"> <img src={Icono} alt="logo"/> </div>
+            
         </div>
 
     )

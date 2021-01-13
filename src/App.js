@@ -3,6 +3,7 @@ import './App.css';
 import { NavBar } from './components/NavBar/NavBar'
 import { Home } from './components/Home/home'
 import { Seccion } from './components/sec02/sec02'
+import { CartWid } from './components/CartWidget/CartWidget'
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <CartWid/>
       <Home greeting={'Bienvenido a PetTravel'}/>    
-      <Seccion/>
+      <Seccion/>     
       
          
 
