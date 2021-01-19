@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import { NavBar } from './components/NavBar/NavBar'
-import { Home } from './components/Home/home'
-import { Seccion } from './components/sec02/sec02'
-import { CartWid } from './components/CartWidget/CartWidget'
+import { NavBar } from './components/NavBar/NavBar';
+import { Home } from './components/Home/home';
+import { Seccion } from './components/sec02/sec02';
+import { CartWid } from './components/CartWidget/CartWidget';
+import  CountContainer from './Containers/CountContainer/countContainer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <NavBar/>
       <CartWid/>
       <Home greeting={'Bienvenido a PetTravel'}/>    
+      <CountContainer initial={1} stock={5}/>
       <Seccion/>     
       
          

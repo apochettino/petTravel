@@ -1,6 +1,6 @@
 import React from'react'
 import './CartWidget.css'
-import Icono from '../../assets/img/carrito.png'
+import Icono from '../../assets/img/cart.svg'
 
 export const CartWid = () => { //uso default si voy a hacer mas de una navbar
 
