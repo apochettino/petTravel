@@ -1,4 +1,5 @@
 import React from 'react';
+import './count.css';
 
 const Count = ({min, max, onAdd, count}) => {
 
