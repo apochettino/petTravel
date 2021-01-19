@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 const Count = ({min, max, onAdd, count}) => {
 
     return (
 
         <>
-        <button onClick={min}>-</button>
+        <button className='countAdor' onClick={min}> - </button>
         <p>{count}</p>
-        <button onClick={max}>+</button>
+        <button className='countAdor' onClick={max}> + </button>
         </>
 
-    )
-}
+    );
+};
 
-export default Count
+export default Count;
